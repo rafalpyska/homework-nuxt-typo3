@@ -1,0 +1,11 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": {
+    "packages": ["homework-front", "homework-ui"],
+    "nohoist": ["**/css-loader"]
+  },
+  "private": true
+}
