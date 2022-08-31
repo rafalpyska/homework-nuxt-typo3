@@ -27,10 +27,12 @@
 </script>
 <style scoped lang="scss">
   .card {
+    --font: 'Quicksand', sans-serif;
     --text-color: rgba(0, 0, 0, .6);
     --background-color: rgba(255, 255, 255, 0.9);
     --border-radius: .2rem;
     --box-shadow: rgba(150, 150, 150, 0.9) 0px 1px 3px;
+    font-family: var(--font);
     color: var(--text-color);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
